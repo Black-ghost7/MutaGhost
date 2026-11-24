@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=MutaGhost
+GenericName=Password Mutation Generator
+Comment=Keyword-based password wordlist generator (derived from Psudohash)
+Exec=x-terminal-emulator -e mutaghost --menu
+TryExec=mutaghost
+Icon=mutaghost
+Terminal=true
+Categories=Utility;Security;ConsoleOnly;
+Keywords=password;wordlist;mutation;pentest;security;
+StartupNotify=false
