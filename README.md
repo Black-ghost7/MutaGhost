@@ -119,12 +119,6 @@ MutaGhost is a password-auditing tool. Use it only to test passwords, accounts, 
 
 This project is derived from [Psudohash](https://github.com/t3l3machus/psudohash) (MIT License) by Panagiotis Chartas. See [NOTICE.md](NOTICE.md) for what was kept and what changed, and [LICENSE](LICENSE) for the full license text.
 
-## Connect
-
-- GitHub: https://github.com/Black-ghost7
-- LinkedIn: https://www.linkedin.com/in/black-ghost7
-- TryHackMe: https://tryhackme.com/p/Blackghost7
-
 ## License
 
 MIT — see [LICENSE](LICENSE). Covers both the original Psudohash code and MutaGhost's modifications.
