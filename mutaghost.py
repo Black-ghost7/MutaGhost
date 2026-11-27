@@ -25,7 +25,7 @@ REPO = "https://github.com/Black-ghost7/MutaGhost"
 
 COLOR = sys.stdout.isatty() and "NO_COLOR" not in os.environ
 
-GRADIENT = (121, 120, 84, 83, 47, 46)   # pale mint -> spring green, top to bottom
+GRADIENT = (117, 123, 86, 85, 49, 48)   # light blue -> mint/spring green, top to bottom
 
 LOGO = [
     " ██████╗ ██╗  ██╗ ██████╗ ███████╗████████╗",

@@ -4,7 +4,11 @@
 
 # MutaGhost
 
-Keyword-based password mutation generator. Derived from [Psudohash](https://github.com/t3l3machus/psudohash) by Panagiotis Chartas ([@t3l3machus](https://github.com/t3l3machus)), rewritten with a colored interactive menu, a real progress indicator, and an exact pre-run count. See [NOTICE.md](NOTICE.md) for the full attribution.
+Built by [**Black-ghost7**](https://github.com/Black-ghost7) — a keyword-based password mutation generator with a colored interactive menu, a real-time progress indicator while it works, and an **exact** word/size count computed before anything is written to disk. Its core mutation engine (leetspeak substitution, case variation, numbering, years, padding) builds on [Psudohash](https://github.com/t3l3machus/psudohash) by Panagiotis Chartas ([@t3l3machus](https://github.com/t3l3machus)); see [NOTICE.md](NOTICE.md) for exactly what was kept and what MutaGhost adds.
+
+<p align="center">
+  <img src="assets/banner.svg" alt="MutaGhost banner" width="640">
+</p>
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/Platform-Kali%20%7C%20Debian%20%7C%20Termux-green)](#supported-platforms)
@@ -103,7 +107,7 @@ For very large jobs this uses more memory than writing straight to disk, which i
 
 **v1.0.1**
 - Fix: a word with many repeatable characters (e.g. the same letter many times) could make counting take far longer than the advertised safety threshold, up to appearing to hang. The root cause was an internal deduplication step that scaled quadratically; it is now linear, with no change to the output.
-- New: colored block-letter banner in the terminal.
+- New: colored block-letter banner in the terminal (light blue to mint gradient), and a matching banner image in this README.
 
 ## Uninstall
 
@@ -115,9 +119,17 @@ For very large jobs this uses more memory than writing straight to disk, which i
 
 MutaGhost is a password-auditing tool. Use it only to test passwords, accounts, or systems you own or are explicitly authorized to test. The author and the author of the original Psudohash project accept no liability for misuse.
 
+## 👤 Developer
+
+MutaGhost is built and maintained by **Black-ghost7**.
+
+- GitHub: https://github.com/Black-ghost7
+- LinkedIn: https://www.linkedin.com/in/black-ghost7
+- TryHackMe: https://tryhackme.com/p/Blackghost7
+
 ## Attribution
 
-This project is derived from [Psudohash](https://github.com/t3l3machus/psudohash) (MIT License) by Panagiotis Chartas. See [NOTICE.md](NOTICE.md) for what was kept and what changed, and [LICENSE](LICENSE) for the full license text.
+MutaGhost's mutation engine builds on [Psudohash](https://github.com/t3l3machus/psudohash) (MIT License) by Panagiotis Chartas. See [NOTICE.md](NOTICE.md) for exactly what was kept and what MutaGhost adds on top of it, and [LICENSE](LICENSE) for the full license text.
 
 ## License
 
