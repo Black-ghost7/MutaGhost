@@ -124,8 +124,7 @@ MutaGhost is a password-auditing tool. Use it only to test passwords, accounts, 
 MutaGhost is built and maintained by **Black-ghost7**.
 
 - GitHub: https://github.com/Black-ghost7
-- LinkedIn: https://www.linkedin.com/in/black-ghost7
-- TryHackMe: https://tryhackme.com/p/Blackghost7
+
 
 ## Attribution
 
